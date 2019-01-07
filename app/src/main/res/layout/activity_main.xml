@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.pg.fk.intents_challenge.MainActivity">
+
+    <TextView
+        android:id="@+id/tvContactsApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="Contact App"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/ivWebsite"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:padding="20dp"
+        app:srcCompat="@drawable/ic_contacts_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/ivPhone"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_local_phone_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/ivMap"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:padding="20dp"
+        app:srcCompat="@drawable/ic_map_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/ivEmoticon"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        app:srcCompat="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/btnCreateNewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/black"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="Create New Contact"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
